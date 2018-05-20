@@ -1,0 +1,5 @@
+<h1>Alerts</h1>
+
+{{ range .Site.Data.color}}
+  {{ partial "product/components/notification" . }}
+{{ end }}

@@ -1,0 +1,7 @@
+<h1>Alerts with Links </h1>
+
+{{ range .Site.Data.color}}
+<div class="alert alert-{{ . }}" role="alert">
+  This is a {{ . }} alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+{{ end }}

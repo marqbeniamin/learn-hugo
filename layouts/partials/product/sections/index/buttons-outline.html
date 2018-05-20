@@ -1,0 +1,8 @@
+<div class="content">
+  <h1> Buttons Outline </h1>
+  {{ range .Site.Data.color}}
+    <button type="button" class="btn btn-outline-{{ . }}">
+      {{ . }}
+    </button>
+  {{ end }}
+</div>
